@@ -30,3 +30,30 @@ body {
   font-size: 0.75rem;
   font-weight: 500;
 }
+
+main {
+  padding: 30px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px/ 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input {
+  border-radius: 5px;
+  font-family: "karla", sans-serif;
+  text-indent: 8px;
+  border: 1px solid #D5D4D8;
+
+}
+
+.form-button {
+  grid-column: 1/-1;
+  font-family: "karla", sans-serif;
+  color: white;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  cursor: pointer;
+  border: none;
+}
